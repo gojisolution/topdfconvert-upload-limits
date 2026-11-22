@@ -2,6 +2,10 @@
 
 Every addition and re-check, newest first. Dates are when we read the authority's own page.
 
+## 2026-11-22
+
+- Repository renamed from `official-upload-limits` to `topdfconvert-upload-limits` (the old address redirects here). No rule changed.
+
 ## 2026-11-21
 
 - Added **USCIS online filing**: 12 MB per file; PDF, JPG or JPEG (TIFF for some forms); no encrypted or password-protected files. Source: uscis.gov, page reviewed/updated 10/07/2026.
