@@ -1,0 +1,130 @@
+{
+  "name": "ToPDFConvert upload limits: official file rules for visa and government portals",
+  "description": "File size limits and file rules for online portals, each read on the authority’s own page on the date in \"checked\". null means the page does not say.",
+  "units": "Sizes in bytes, decimal (1 MB = 1,000,000 bytes).",
+  "license": "CC BY 4.0 – credit \"ToPDFConvert (topdfconvert.com)\"",
+  "maintainer": "ToPDFConvert, https://topdfconvert.com",
+  "updated": "2026-11-21",
+  "portals": [
+    {
+      "id": "us-nvc",
+      "portal": "NVC / CEAC",
+      "country": "US",
+      "authority": "U.S. Department of State, National Visa Center",
+      "max_bytes_per_file": 2000000,
+      "min_bytes_per_file": null,
+      "limit_text": "2 MB",
+      "accepted_formats": [
+        "pdf",
+        "jpg"
+      ],
+      "formats_for_some_forms_only": null,
+      "password_protected_allowed": false,
+      "one_document_per_file": true,
+      "scan_dpi": 150,
+      "colour_scan": null,
+      "notes": "One document per file, with all its pages together. JPG or PDF. No zipped or password-protected files. Scan at 150 DPI.",
+      "source_url": "https://travel.state.gov/content/travel/en/us-visas/immigrate/the-immigrant-visa-process/step-1-submit-a-petition/step-2-begin-nvc-processing/scanning-and-uploading-tips.html",
+      "checked": "2026-11-20"
+    },
+    {
+      "id": "us-uscis",
+      "portal": "USCIS online filing",
+      "country": "US",
+      "authority": "U.S. Citizenship and Immigration Services",
+      "max_bytes_per_file": 12000000,
+      "min_bytes_per_file": null,
+      "limit_text": "12 MB",
+      "accepted_formats": [
+        "pdf",
+        "jpg"
+      ],
+      "formats_for_some_forms_only": [
+        "tiff"
+      ],
+      "password_protected_allowed": false,
+      "one_document_per_file": null,
+      "scan_dpi": null,
+      "colour_scan": null,
+      "notes": "PDF, JPG or JPEG; TIFF is accepted for some forms. Do not encrypt or password-protect files.",
+      "source_url": "https://www.uscis.gov/file-online/tips-for-filing-forms-online",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "ca-ircc",
+      "portal": "IRCC secure account, citizenship, asylum, PR portal",
+      "country": "CA",
+      "authority": "Immigration, Refugees and Citizenship Canada",
+      "max_bytes_per_file": 4000000,
+      "min_bytes_per_file": null,
+      "limit_text": "4 MB",
+      "accepted_formats": null,
+      "formats_for_some_forms_only": null,
+      "password_protected_allowed": null,
+      "one_document_per_file": null,
+      "scan_dpi": null,
+      "colour_scan": null,
+      "notes": "Per file, for the IRCC secure account, the online citizenship application, the asylum portal and the Permanent Residence Portal.",
+      "source_url": "https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1123",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "ca-ircc-portal",
+      "portal": "IRCC Portal, new and old version",
+      "country": "CA",
+      "authority": "Immigration, Refugees and Citizenship Canada",
+      "max_bytes_per_file": 5000000,
+      "min_bytes_per_file": null,
+      "limit_text": "5 MB",
+      "accepted_formats": null,
+      "formats_for_some_forms_only": null,
+      "password_protected_allowed": null,
+      "one_document_per_file": null,
+      "scan_dpi": null,
+      "colour_scan": null,
+      "notes": "Per file, for the IRCC Portal (new and old version).",
+      "source_url": "https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1123",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "br-inss",
+      "portal": "Meu INSS",
+      "country": "BR",
+      "authority": "Instituto Nacional do Seguro Social (Brazil)",
+      "max_bytes_per_file": 5000000,
+      "min_bytes_per_file": null,
+      "limit_text": "5 MB",
+      "accepted_formats": [
+        "pdf"
+      ],
+      "formats_for_some_forms_only": null,
+      "password_protected_allowed": null,
+      "one_document_per_file": null,
+      "scan_dpi": null,
+      "colour_scan": true,
+      "notes": "Per document, for Meu INSS requests: PDF, scanned in colour, with the whole document in frame.",
+      "source_url": "https://www.gov.br/inss/pt-br/noticias/precisa-cumprir-exigencia-saiba-como-realizar-o-procedimento",
+      "checked": "2026-11-21"
+    },
+    {
+      "id": "in-evisa",
+      "portal": "e-Visa",
+      "country": "IN",
+      "authority": "Government of India (Indian e-Visa portal)",
+      "max_bytes_per_file": 300000,
+      "min_bytes_per_file": 10000,
+      "limit_text": "10–300 KB",
+      "accepted_formats": [
+        "pdf"
+      ],
+      "formats_for_some_forms_only": null,
+      "password_protected_allowed": null,
+      "one_document_per_file": null,
+      "scan_dpi": null,
+      "colour_scan": null,
+      "notes": "Passport bio page and other documents as PDF of 10 KB to 300 KB. The photo is a separate JPEG of 10 KB to 1 MB.",
+      "source_url": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+      "checked": "2026-11-20"
+    }
+  ]
+}
